@@ -25,28 +25,28 @@ Pro tip: use uithub.⁠com instead of github.⁠com to get LLM friendly repo con
 
 I ask Claude to write a very meticulous and detailed plan that anybody (human or agent) can follow.
 
-IMPORTANT: I do NOT give Claude Code the entire plan. It's for me to work through as the conductor one step at a time
+**IMPORTANT**: I do NOT give Claude Code the entire plan. It's for me to work through as the conductor one step at a time
 
 ### 4. Get a working version ASAP
 
 Instead of trying to "one shot" an entire app with all features, the focus for you (and Claude) should be to get a bare minimum MVP version working - fast!
 
-Get it working, then iterate and improve. It's easier to add one feature than 10 features
+Get it working, then iterate and improve. **It's easier to add one feature than 10 features**
 
 ### 5. Run /init in Claude Code to create a CLAUDE.⁠md file
 
 Do this once you have a working MVP and then use # to add new memories to it later:
 
-# Always run bun typecheck to check for type errors
+**Always run bun typecheck to check for type errors**
 
-This root CLAUDE.⁠md should be for general, project level rules ONLY
+This root `CLAUDE.⁠md` should be for general, project level rules **ONLY**
 
 ### 6. Add CLAUDE.⁠md files to subdirectories
 
 This is the unsung hero of making Claude Code less "dumb". Instead of one giant rule file, each dir can have their own:
 
-/src/components/CLAUDE.⁠md
-/src/db/CLAUDE.⁠md
+`/src/components/CLAUDE.⁠md`    
+`/src/db/CLAUDE.⁠md`
 
 This gives Claude more precise context and makes a HUGE difference
 
@@ -97,6 +97,6 @@ It can be tempting to spin up 6 agents in git worktrees, each of those deploying
 
 It's fun & can be useful for learning, but for deep work, going slower and knowing your codebase is 100x better!
 
-Reference 
+#### Reference 
 
-<Tweet id="https://x.com/iannuttall/status/1951243991762215015" />
+<Tweet id="https://twitter.com/iannuttall/status/1951243907628724725" />

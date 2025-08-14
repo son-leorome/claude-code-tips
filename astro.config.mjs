@@ -20,6 +20,14 @@ export default defineConfig({
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
+				{
+					label: 'Workflow',
+					autogenerate: { directory: 'workflow' },
+				},
+				{
+					label: 'Utils',
+					autogenerate: { directory: 'utils' },
+				},
 			],
 		}),
 	],
